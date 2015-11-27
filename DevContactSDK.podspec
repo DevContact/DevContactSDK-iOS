@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary          = "DevContact iOS SDK by DevContact."
 
   s.homepage         = "https://github.com/DevContact/DevContactSDK-iOS"
-  s.license          = "DevContact: Copyright 2015 DevContact, Inc. All Rights Reserved. Use of this software is subject to the terms and conditions of the DevContact Software and Services Agreement located at https://www.devcontact.com/terms."
+  s.license          = { :type => 'Commercial'}
   s.author           = { "DevContact" => "info@devcontact.com" }
   s.source           = { :git => "https://github.com/DevContact/DevContactSDK-iOS.git", :tag => s.version.to_s }
 
