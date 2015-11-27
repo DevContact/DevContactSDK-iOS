@@ -1,9 +1,5 @@
 # DevContactSDK
 
-[![CI Status](http://img.shields.io/travis/Haseeb Yousaf/DevContactSDK.svg?style=flat)](https://travis-ci.org/Haseeb Yousaf/DevContactSDK)
-[![Version](https://img.shields.io/cocoapods/v/DevContactSDK.svg?style=flat)](http://cocoapods.org/pods/DevContactSDK)
-[![License](https://img.shields.io/cocoapods/l/DevContactSDK.svg?style=flat)](http://cocoapods.org/pods/DevContactSDK)
-[![Platform](https://img.shields.io/cocoapods/p/DevContactSDK.svg?style=flat)](http://cocoapods.org/pods/DevContactSDK)
 
 ## Usage
 
