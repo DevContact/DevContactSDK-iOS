@@ -1,0 +1,6 @@
+framework module Pods_DevContactSDK_Tests {
+  umbrella header "Pods-DevContactSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
