@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DevContactSDK"
-  s.version          = "1.0.3"
+  s.version          = "1.0.4"
   s.summary          = "DevContact iOS SDK by DevContact."
 
   s.homepage         = "https://github.com/DevContact/DevContactSDK-iOS"
