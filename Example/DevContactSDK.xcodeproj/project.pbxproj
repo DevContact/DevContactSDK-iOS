@@ -61,6 +61,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9671DDC206E76C66593084DC /* Pods-DevContactSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevContactSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DevContactSDK_Tests/Pods-DevContactSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9B741DC51C50DC8500B73E52 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D53AFCF91C7607FE00D32AD9 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D53AFCFA1C7607FF00D32AD9 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DCFE24781516ABD7E2B8525D /* Pods-DevContactSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevContactSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DevContactSDK_Example/Pods-DevContactSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E143593FFDF71F57D83FACAF /* Pods-DevContactSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevContactSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DevContactSDK_Example/Pods-DevContactSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FB49F8E639F60934A95682ED /* Pods_DevContactSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevContactSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -248,6 +250,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 6003F581195388D10070C39A;
 			productRefGroup = 6003F58B195388D20070C39A /* Products */;
@@ -409,6 +412,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6003F597195388D20070C39A /* en */,
+				D53AFCF91C7607FE00D32AD9 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -417,6 +421,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6003F5B9195388D20070C39A /* en */,
+				D53AFCFA1C7607FF00D32AD9 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

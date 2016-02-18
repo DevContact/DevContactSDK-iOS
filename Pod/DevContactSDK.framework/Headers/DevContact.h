@@ -220,7 +220,6 @@ typedef enum {
 
 
 
-
 /**
 Set conversationPrefillText prefills a new conversation with the supplied string. You can use this option to add crash logs to a new conversation and prompt the user to send those logs as a support ticket. You can also use this option to set context depending on where and when in the app showConversation is being launched from
  @code
@@ -229,6 +228,21 @@ Set conversationPrefillText prefills a new conversation with the supplied string
  @param NSString "Your Text"
  */
 +(void)setConversationPrefillText:(NSString *)text;
+
+
+
+/**
+ Prefills name and email fields in the conversation screen with hide/show options
+ Example usage:
+ @code
+ [DevContact setName:@"name" andEmail:@"abc@xyz.com" visible:NO];
+ @endcode
+ @param NSString "name"
+ @param NSString "email"
+ @param BOOL "show or hide name and email fields"
+ */
++ (void)setName:(NSString*)name andEmail:(NSString*)email visible:(BOOL)bVisible;
+
 
 
 +(void)showFaqs:(UIViewController *)viewController;
@@ -314,5 +328,7 @@ Applies to tableview cells. Sets the cell selection color.
 + (void)setCellSelectionColor:(UIColor*)color;
 
 + (void)updateInstallationInfoWithCountry:(NSString*)country city:(NSString*)city onSuccess:(void(^)())callback;
+
 + (void)clearSavedData;
+
 @end
