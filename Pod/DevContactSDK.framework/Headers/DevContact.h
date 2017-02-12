@@ -331,4 +331,40 @@ Applies to tableview cells. Sets the cell selection color.
 
 + (void)clearSavedData;
 
+
+#pragma mark - Custom Parameters
+
+
+/**
+ Ads a custom parameter that is displayed in the sidebar of the support agent
+ main screen.
+
+ @param key The key that will be displayed on support agent screen.
+ @param value The value of the custom param.
+ */
++ (void)setCustomParamWithKey:(NSString*)key value:(NSString*)value;
+
+
+/**
+ Ads a custom parameter that is displayed in the sidebar of the support agent
+ main screen.
+
+ @param key The key that will be displayed on support agent screen.
+ @param value The value of the custom param.
+ @param desc Description of the custom param. It shows as tooltip on when support agent hovers mouse over the field.
+ */
++ (void)setCustomParamWithKey:(NSString*)key value:(NSString*)value description:(NSString*)desc;
+
+
+/**
+ Ads a custom parameter that is displayed in the sidebar of the support agent screen.
+ 
+ @param key The key that will be displayed on support agent screen.
+ @param value The value of the custom param.
+ @param desc Description of the custom param. It shows as tooltip on when support agent hovers mouse over the field.
+ @param showOnMain Indicates whether the param should be displayed on main screen or on 
+ the additional information screen on support agent's screen.
+ */
++ (void)setCustomParamWithKey:(NSString*)key value:(NSString*)value description:(NSString*)desc showOnMainScreen:(BOOL)showOnMain;
+
 @end
