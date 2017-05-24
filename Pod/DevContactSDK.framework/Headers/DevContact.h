@@ -35,41 +35,22 @@ typedef enum {
 +(void)startWithAppID:(NSString *)appID appKey:(NSString *)appKey;
 
 
+/*FAQs*/
 
 /*Push Notifications*/
 
 /**
- Enables Push Notifications.
+ Enables handling of Push Notifications that are related to DevContact when application is launched
+ from a push Notification recieved with relation to DevContact.
  Call this method in didFinishLaunchingWithOptions at the end.
  Example usage:
  @code
- [DevContact enablePushNotifications:YES launchoptions:'App's launch options here'];
+ [DevContact showDBChatScreenForAppLaunchedWithPushNotifications:'App's launch options here'];
  @endcode
- @param enabled
- Enabled or not enabled. By default not enabled. You can skip this method if do not want to enable Push Notifications.
  @param launchOptions
  Application launch options.
  */
-+(void)enablePushNotifications:(BOOL)enabled launchoptions:(NSDictionary *)launchOptions;
-
-
-
-/**
- Registers APNS to the server.
- Call this method in application didRegisterForRemoteNotificationsWithDeviceToken: in AppDelegate if you
- want to handle push notifications manually.
- Example usage:
- @code
- [DevContact registerAPNSwithID:@"APNS_ID_HERE"];
- @endcode
- @param apnsID
- APNS id returned by the Apple Push Notification Server.
- */
-+(void)registerAPNSwithID:(NSData *)apnsID __deprecated_msg("Automatic registration is enabled");
-
-
-
-/*FAQs*/
++(void)showDBChatScreenForAppLaunchedWithPushNotifications:(NSDictionary *)launchOptions;
 
 
 /**
