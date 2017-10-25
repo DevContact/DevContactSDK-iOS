@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/DevContact/DevContactSDK-iOS"
   s.license          = { :type => "Commercial", :file => "LICENSE" }
   s.author           = { "DevContact" => "info@devcontact.com" }
-  s.source           = { :git => "https://github.com/DevContact/DevContactSDK-iOS.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/DevContact/DevContactSDK-iOS.git", :tag => s.version }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = false
