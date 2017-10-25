@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author           = { "DevContact" => "info@devcontact.com" }
   s.source           = { :git => "https://github.com/DevContact/DevContactSDK-iOS.git", :tag => s.version }
 
-  s.platform     = :ios, '7.0'
+  s.ios.deployment_target = '9.0'
   s.requires_arc = false
 
   s.frameworks = 'UIKit', 'Foundation', 'Security', 'CFNetwork', 'QuartzCore', 'CoreGraphics', 'SystemConfiguration', 'CoreData'
