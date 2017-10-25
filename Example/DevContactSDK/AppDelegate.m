@@ -22,12 +22,7 @@
     
     // Initialize dev contact
 #error Set your AppID and App Key, and then comment-out this line
-    [DevContact startWithAppID:@"<YOUR APP ID>" appKey:@"<YOUR APP KEY>"];
-    
-    // Enable push notifications
-#ifndef TARGET_IPHONE_SIMULATOR
-    [DevContact enablePushNotifications:YES launchoptions:launchOptions];
-#endif
+    [DevContact startWithAppID:@"<YOUR-APP-ID>" appKey:@"<YOUR-APP-KEY>"];
     
     // Appearance
 //    [DevContact setContentBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0.5 alpha:0.2]];

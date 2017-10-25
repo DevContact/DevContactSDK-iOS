@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DevContactSDK"
-  s.version          = "1.0.10"
+  s.version          = "1.1"
   s.summary          = "DevContact iOS SDK by DevContact."
 
   s.homepage         = "https://github.com/DevContact/DevContactSDK-iOS"
@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = false
 
-  s.resource = "Pod/DevContactSDK.bundle"
   s.frameworks = 'UIKit', 'Foundation', 'Security', 'CFNetwork', 'QuartzCore', 'CoreGraphics', 'SystemConfiguration', 'CoreData'
   s.library  = 'icucore'
   s.vendored_frameworks = "Pod/DevContactSDK.framework"

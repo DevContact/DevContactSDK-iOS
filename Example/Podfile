@@ -4,7 +4,3 @@ use_frameworks!
 target 'DevContactSDK_Example' do
     pod "DevContactSDK", :path => "../"
 end
-
-target 'DevContactSDK_Tests' do
-    pod "DevContactSDK", :path => "../"
-end

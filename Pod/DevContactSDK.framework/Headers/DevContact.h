@@ -308,8 +308,6 @@ Applies to tableview cells. Sets the cell selection color.
  */
 + (void)setCellSelectionColor:(UIColor*)color;
 
-+ (void)updateInstallationInfoWithCountry:(NSString*)country city:(NSString*)city onSuccess:(void(^)())callback;
-
 + (void)clearSavedData;
 
 
