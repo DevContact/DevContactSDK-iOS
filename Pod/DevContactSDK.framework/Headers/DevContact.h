@@ -9,11 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-typedef enum {
-    PLHConversationScreen = 1,
-    PLHSectionScreen = 2,
-    PLHGoBack = 0
-} PLHScreen;
 
 @interface DevContact : NSObject
 
@@ -41,16 +36,17 @@ typedef enum {
 
 /**
  Enables handling of Push Notifications that are related to DevContact when application is launched
- from a push Notification recieved with relation to DevContact.
+ from a push Notification recieved with relation to DevContact. If no push notifcation is detected
+ then does nothing.
  Call this method in didFinishLaunchingWithOptions at the end.
  Example usage:
  @code
- [DevContact showDBChatScreenForAppLaunchedWithPushNotifications:'App's launch options here'];
+ [DevContact showChatScreenForAppLaunchedWithPushNotifications:'App's launch options here'];
  @endcode
  @param launchOptions
  Application launch options.
  */
-+(void)showDBChatScreenForAppLaunchedWithPushNotifications:(NSDictionary *)launchOptions;
++(void)showChatScreenForAppLaunchedWithPushNotifications:(NSDictionary *)launchOptions;
 
 
 /**
@@ -125,94 +121,6 @@ typedef enum {
 
 
 /**
- Guides the user weather he wants to show the conversation screen , Sections Screen or (go back)dismisses the DevContact sdk screen after he initiates the new conversation.
- By Default  go back Option is selected.
- Example usage:
- @code
- [DevContact setAfterConversationScreen:PLHConversationScreen];
- @endcode
- @param PLHScreen PLHConversationScreen,PLHSectionScreen,PLHGoBack
-
- */
-
-+(void)setAfterConversationScreen:(PLHScreen)Screen;
-
-
-
-/**
- Enables/Disables email option in start new conversation screen.
- By Default require email is disabled in app.
- Example usage:
- @code
- [DevContact setRequireEmail:YES];
- @endcode
- @param bool
- YES/NO
- */
-
-+(void)setRequireEmail:(BOOL)isRequire;
-
-
-
-
-/**
- Hides name,email from start new conversation screen.
- By Default name , email is shown on new conversation screen.
- Example usage:
- @code
- [DevContact hideNameAndEmail:YES];
- @endcode
- @param bool
- YES/NO
- */
-
-+(void)hideNameAndEmail:(BOOL)isHidden;
-
-
-
-
-/**
- Hides Name from start new conversation screen.
- By Default name is shown on new conversation screen.
- Example usage:
- @code
- [DevContact hideNameAndEmail:YES];
- @endcode
- @param bool
- YES/NO
- */
-
-+(void)hideName:(BOOL)isHidden;
-
-
-
-
-/**
- Hides Email from start new conversation screen.
- By Default Email is shown on new conversation screen.
- Example usage:
- @code
- [DevContact hideEmail:YES];
- @endcode
- @param bool
- YES/NO
- */
-+(void)hideEmail:(BOOL)isHidden;
-
-
-
-/**
-Set conversationPrefillText prefills a new conversation with the supplied string. You can use this option to add crash logs to a new conversation and prompt the user to send those logs as a support ticket. You can also use this option to set context depending on where and when in the app showConversation is being launched from
- @code
- [DevContact setConversationPrefillText:@"Your Text"];
- @endcode
- @param NSString "Your Text"
- */
-+(void)setConversationPrefillText:(NSString *)text;
-
-
-
-/**
  Prefills name and email fields in the conversation screen with hide/show options
  Example usage:
  @code
@@ -222,9 +130,10 @@ Set conversationPrefillText prefills a new conversation with the supplied string
  @param NSString "email"
  @param BOOL "show or hide name and email fields"
  */
-+ (void)setName:(NSString*)name andEmail:(NSString*)email visible:(BOOL)bVisible;
++ (void)setName:(NSString*)name andEmail:(NSString*)email;
 
 
+#pragma mark - Appearance
 
 +(void)showFaqs:(UIViewController *)viewController;
 
@@ -308,8 +217,6 @@ Applies to tableview cells. Sets the cell selection color.
  */
 + (void)setCellSelectionColor:(UIColor*)color;
 
-+ (void)clearSavedData;
-
 
 #pragma mark - Custom Parameters
 
@@ -346,4 +253,7 @@ Applies to tableview cells. Sets the cell selection color.
  */
 + (void)setCustomParamWithKey:(NSString*)key value:(NSString*)value description:(NSString*)desc showOnMainScreen:(BOOL)showOnMain;
 
+#pragma mark - Utility
+
++ (void)clearSavedData;
 @end

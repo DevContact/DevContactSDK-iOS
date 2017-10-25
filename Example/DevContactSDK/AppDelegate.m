@@ -24,6 +24,14 @@
 #error Set your AppID and App Key, and then comment-out this line
     [DevContact startWithAppID:@"<YOUR-APP-ID>" appKey:@"<YOUR-APP-KEY>"];
     
+    // Sum custom parameters sent
+    [DevContact setCustomParamWithKey:@"Cell Service" value:@"Verizon"];
+    [DevContact setCustomParamWithKey:@"Device allocation" value:@"Alex" description:@"Allocation to Alex for testing" showOnMainScreen:NO];
+    [DevContact setCustomParamWithKey:@"Developer" value:@"Pentaloop"];
+    
+    // Enable Dev Contact to manage Push Notifications.
+    [DevContact showChatScreenForAppLaunchedWithPushNotifications:launchOptions];
+    
     // Appearance
 //    [DevContact setContentBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0.5 alpha:0.2]];
 //    [DevContact setBackgroundColor:[UIColor darkGrayColor]];
