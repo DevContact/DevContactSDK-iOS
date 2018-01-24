@@ -15,6 +15,9 @@ DevContact, info@pentaloop.com
 
 ## Release Notes
 
+### v1.1.3
+- Fixed problem where multiple copies of the same chat message were displayed in chat window.
+
 ### v1.1.2
 - Fixed crash related to SKStoreReviewController ios 10.3 and older iOS versions.
 
