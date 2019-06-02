@@ -119,6 +119,17 @@
 +(void)enableContactUs:(BOOL)isEnable;
 
 
+/**
+ Enables/Disables mandatory nature of email.
+ By Defult value is disabled in app.
+ Example usage:
+ @code
+ [DevContact enableEmailMandatory:NO];
+ @endcode
+ @param bool
+ YES/NO
+ */
++(void)enableEmailMandatory:(BOOL)isEnable;
 
 /**
  Prefills name and email fields in the conversation screen with hide/show options
