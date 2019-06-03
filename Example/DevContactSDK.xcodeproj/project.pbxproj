@@ -152,7 +152,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				C612C3FE8C16A6E0E18BDF7A /* [CP] Embed Pods Frameworks */,
-				7BB9D4CAB69B89B6E36959EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,28 +211,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7BB9D4CAB69B89B6E36959EB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DevContactSDK_Example/Pods-DevContactSDK_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C612C3FE8C16A6E0E18BDF7A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DevContactSDK_Example/Pods-DevContactSDK_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-DevContactSDK_Example/Pods-DevContactSDK_Example-frameworks.sh",
 				"${PODS_ROOT}/../../Pod/DevContactSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -242,7 +226,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DevContactSDK_Example/Pods-DevContactSDK_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DevContactSDK_Example/Pods-DevContactSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DD4EEF231A77C01C5C36D618 /* [CP] Check Pods Manifest.lock */ = {

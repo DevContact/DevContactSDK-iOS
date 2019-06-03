@@ -15,6 +15,9 @@ DevContact, info@pentaloop.com
 
 ## Release Notes
 
+### v1.1.4
+- Ability to make username and password mandatory and optional based on settings value.
+
 ### v1.1.3
 - Fixed problem where multiple copies of the same chat message were displayed in chat window.
 
