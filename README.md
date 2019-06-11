@@ -15,6 +15,9 @@ DevContact, info@pentaloop.com
 
 ## Release Notes
 
+### v1.2.0
+- Bugfixes, incorporate changes from 1.1.9 in FAQs screen.
+
 ### v1.1.9
 - Ability to make username and password mandatory and optional based on settings value.
 
