@@ -27,7 +27,7 @@
  @param appKey
  Application key generated on web admin.
  */
-+(void)startWithAppID:(NSString *)appID appKey:(NSString *)appKey;
++(void)startWithAppID:(NSString *)appID appKey:(NSString *)appKey enableSearch:(BOOL)search;
 
 
 /*FAQs*/
