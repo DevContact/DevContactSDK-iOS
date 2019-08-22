@@ -15,6 +15,12 @@ DevContact, info@pentaloop.com
 
 ## Release Notes
 
+### v1.2.2
+- Bugfixes: incorporate changes from 1.1.9 in chat screen. Navigation workflow from profile screen fixed
+
+### v1.2.1
+- Bugfixes: Searchbar on FAQ screen is now programmatically controlled through exposed property enableSearch
+
 ### v1.2.0
 - Bugfixes, incorporate changes from 1.1.9 in FAQs screen.
 
