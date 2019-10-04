@@ -15,6 +15,9 @@ DevContact, info@pentaloop.com
 
 ## Release Notes
 
+### v1.2.3
+- Bugfixes: Crash on search FAQs screen due to iOS 13. Username and Email of user is now mandatory (configurable) for filing any ticket.
+
 ### v1.2.2
 - Bugfixes: incorporate changes from 1.1.9 in chat screen. Navigation workflow from profile screen fixed
 
