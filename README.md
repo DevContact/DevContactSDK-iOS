@@ -15,6 +15,9 @@ DevContact, info@pentaloop.com
 
 ## Release Notes
 
+### v1.2.4
+- Bugfixes: Keyboard overlapping textfield on chat screen fixed.
+
 ### v1.2.3
 - Bugfixes: Crash on search FAQs screen due to iOS 13. Username and Email of user is now mandatory (configurable) for filing any ticket.
 
