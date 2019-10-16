@@ -15,6 +15,9 @@ DevContact, info@pentaloop.com
 
 ## Release Notes
 
+### v1.2.5
+- Bugfixes: Crash on search fixed by migrating to UISearchController.
+
 ### v1.2.4
 - Bugfixes: Keyboard overlapping textfield on chat screen fixed.
 

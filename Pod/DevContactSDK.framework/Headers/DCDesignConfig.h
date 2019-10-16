@@ -42,6 +42,5 @@
 
 + (NSDictionary*)navBarTitleConfigurations;
 + (void)applyNavBarConfigurationsOnScreen:(UIViewController*)screen;
-+ (void)applySearchBarConfigurationsOnScreen:(UIViewController*)screen;
 
 @end
