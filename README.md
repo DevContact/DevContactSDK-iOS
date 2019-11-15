@@ -15,6 +15,9 @@ DevContact, info@pentaloop.com
 
 ## Release Notes
 
+### v1.2.6
+- Dark Mode support added for iOS 13.0 or later.
+
 ### v1.2.5
 - Bugfixes: Crash on search fixed by migrating to UISearchController.
 
