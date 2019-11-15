@@ -15,6 +15,9 @@ DevContact, info@pentaloop.com
 
 ## Release Notes
 
+### v1.2.7
+- Bugfixes: Crash on chat screen textView fixed.
+
 ### v1.2.6
 - Dark Mode support added for iOS 13.0 or later.
 
