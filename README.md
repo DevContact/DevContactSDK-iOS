@@ -15,6 +15,9 @@ DevContact, info@pentaloop.com
 
 ## Release Notes
 
+### v1.2.8
+- Bugfixes: Crash on Faqs screen fixed.
+
 ### v1.2.7
 - Bugfixes: Crash on chat screen textView fixed.
 
