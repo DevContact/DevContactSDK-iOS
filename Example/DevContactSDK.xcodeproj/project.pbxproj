@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52D024E6EEA87A0778982BC5 /* Pods_DevContactSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7310599C040564F89BA01ED5 /* Pods_DevContactSDK_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -18,9 +17,25 @@
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9B741DC61C50DC8500B73E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B741DC51C50DC8500B73E52 /* LaunchScreen.storyboard */; };
+		9B8A69ED25A72CDA001664FE /* Pods_DevContactSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8A69EC25A72CDA001664FE /* Pods_DevContactSDK_Example.framework */; };
+		9B8A69EE25A72CDA001664FE /* Pods_DevContactSDK_Example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8A69EC25A72CDA001664FE /* Pods_DevContactSDK_Example.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9BB8674F1FA063220090B58F /* ChatsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8674D1FA063220090B58F /* ChatsScreen.m */; };
 		9BB867521FA063480090B58F /* FAQsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB867501FA063480090B58F /* FAQsScreen.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B8A69EF25A72CDA001664FE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9B8A69EE25A72CDA001664FE /* Pods_DevContactSDK_Example.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0354B6EE2C36CECEFCE2E49D /* Pods_DevContactSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevContactSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +58,8 @@
 		7310599C040564F89BA01ED5 /* Pods_DevContactSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevContactSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9B741DC51C50DC8500B73E52 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B8A69B925A72347001664FE /* Pods_DevContactSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_DevContactSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8A69EC25A72CDA001664FE /* Pods_DevContactSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_DevContactSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB8674D1FA063220090B58F /* ChatsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatsScreen.m; sourceTree = "<group>"; };
 		9BB8674E1FA063220090B58F /* ChatsScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatsScreen.h; sourceTree = "<group>"; };
 		9BB867501FA063480090B58F /* FAQsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAQsScreen.m; sourceTree = "<group>"; };
@@ -58,9 +75,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				9B8A69ED25A72CDA001664FE /* Pods_DevContactSDK_Example.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				52D024E6EEA87A0778982BC5 /* Pods_DevContactSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +116,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B8A69EC25A72CDA001664FE /* Pods_DevContactSDK_Example.framework */,
+				9B8A69B925A72347001664FE /* Pods_DevContactSDK_Example.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -151,7 +170,8 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				C612C3FE8C16A6E0E18BDF7A /* [CP] Embed Pods Frameworks */,
+				A39EA9E98F51D819AE25F7F3 /* [CP] Embed Pods Frameworks */,
+				9B8A69EF25A72CDA001664FE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +202,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				es,
@@ -211,7 +232,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C612C3FE8C16A6E0E18BDF7A /* [CP] Embed Pods Frameworks */ = {
+		A39EA9E98F51D819AE25F7F3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -343,6 +364,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -362,6 +384,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "DevContactSDK/DevContactSDK-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.devcontact.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -382,7 +405,9 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "DevContactSDK/DevContactSDK-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.devcontact.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
