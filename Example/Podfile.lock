@@ -1,5 +1,5 @@
 PODS:
-  - DevContactSDK (1.1.7)
+  - DevContactSDK (1.2.9)
 
 DEPENDENCIES:
   - DevContactSDK (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DevContactSDK: 9bdb1283ef503779f366ff28370068b4f11b36cc
+  DevContactSDK: a9b3408198c2ada3b94e2ba7f0b1bc66b0d7c359
 
 PODFILE CHECKSUM: 40e761630df02d263fdc87421de794f6d864d651
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.10.0
