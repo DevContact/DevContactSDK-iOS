@@ -21,8 +21,8 @@
 
     
     // Initialize dev contact
-#error Set your AppID and App Key, and then comment-out this line
-    [DevContact startWithAppID:@"<YOUR-APP-ID>" appKey:@"<YOUR-APP-KEY>"];
+#warning Set your AppID and App Key, and then comment-out this line
+    [DevContact startWithAppID:@"<YOUR-APP-ID>" appKey:@"<YOUR-APP-KEY>" enableSearch:NO];
     
     // Sum custom parameters sent
     [DevContact setCustomParamWithKey:@"Cell Service" value:@"Verizon"];
